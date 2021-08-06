@@ -26,7 +26,10 @@ export const ContainerInformation = styled.div`
   justify-content: space-between;
 
   div.texts {
-    width: 80%;
+    width: 40%;
+    @media (max-width: 1200px) {
+      width: 80%;
+    }
   }
 
   p {
@@ -35,6 +38,25 @@ export const ContainerInformation = styled.div`
     font-weight: 500;
     width: 100%;
     margin-top: 2rem;
+    @media (max-width: 900px) {
+      font-size: 1.5rem;
+    }
+  }
+
+  ul {
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+
+  li {
+    font-size: 1.5rem;
+    color: white;
+    font-style: italic;
+    font-weight: 500;
+    width: 100%;
+    @media (max-width: 900px) {
+      font-size: 1.1rem;
+    }
   }
 
   span {
@@ -43,6 +65,9 @@ export const ContainerInformation = styled.div`
     font-style: italic;
     font-weight: 500;
     width: 100%;
+    @media (max-width: 900px) {
+      font-size: 1.2rem;
+    }
   }
 
   div.image {
@@ -53,5 +78,9 @@ export const ContainerInformation = styled.div`
 
   img {
     width: 20rem;
+
+    @media (max-width: 900px) {
+      width: 15rem;
+    }
   }
 `;
