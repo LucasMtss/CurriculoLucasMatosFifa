@@ -1,6 +1,6 @@
-# Projeto Site da Wari
+# Currículo de jogador caro! 😂😂
 
-## Ferramentas utilizadas
+## Um projeto de currículo baseado na interface do FIFA 21
 
-- O site foi criado em React, com a base pronta do boilerplate da Smarti9 usando typescript e styled components
+- O site foi criado em React, usando typescript, styled components e React Hooks.
 
